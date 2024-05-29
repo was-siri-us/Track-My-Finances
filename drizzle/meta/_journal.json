@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1716956801436,
+      "tag": "0000_sparkling_whizzer",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1716957607190,
+      "tag": "0001_abnormal_tusk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1716957759840,
+      "tag": "0002_foamy_carmella_unuscione",
+      "breakpoints": true
+    }
+  ]
+}
