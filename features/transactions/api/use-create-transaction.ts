@@ -5,11 +5,11 @@ import { useMutation,useQueryClient } from "@tanstack/react-query";
 import {client} from "@/lib/hono";
 
 
-type ResponseType = InferResponseType<typeof client.api.accounts["bulk-delete"]["$post"]>;
-type RequestType = InferRequestType<typeof client.api.accounts["bulk-delete"]["$post"]>["json"];
+type ResponseType = InferResponseType<typeof client.api.transactions.$post>;
+type RequestType = InferRequestType<typeof client.api.transactions.$post>["json"];
 
 
-export const useBulkDeleteAccounts = ()=>{
+export const useCreateTransaction = ()=>{
     const queryClient = useQueryClient();
 
 
@@ -21,15 +21,15 @@ export const useBulkDeleteAccounts = ()=>{
     >(
         {
             mutationFn: async (json) =>{
-                const response = await client.api.accounts["bulk-delete"]["$post"]({json});
+                const response = await client.api.transactions.$post({json});
                 return await response.json();
             },
             onSuccess: () =>{
-                toast.success("Accounts Deleted");
-                queryClient.invalidateQueries({queryKey: ["accounts"]});
+                toast.success("Transaction created");
+                queryClient.invalidateQueries({queryKey: ["transactions"]});
             },
             onError: (error) =>{
-                toast.error("Failed to delete accounts");
+                toast.error("Failed to create transaction");
                 console.error(error);
             }
         }
