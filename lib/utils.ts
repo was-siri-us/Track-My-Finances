@@ -15,3 +15,10 @@ export function convertAmountToMiliUnits(amount: number) {
   return amount * 1000
 }
 
+export function formatCurrency(amount: number) {
+  return Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    minimumFractionDigits: 2,
+  }).format(amount);
+}

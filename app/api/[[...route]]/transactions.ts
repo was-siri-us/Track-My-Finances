@@ -64,7 +64,7 @@ const app = new Hono()
                         accountId ? eq(transactions.accountId, accountId) : undefined,
                         eq(accounts.userId, auth.userId),
                         gte(transactions.date, startDate),
-                        lte(transactions.date, endDate),
+                        // lte(transactions.date, endDate),
                     )
                 )
                 .orderBy(desc(transactions.date));
@@ -74,7 +74,7 @@ const app = new Hono()
             return c.json({ data });
         }
     )
-    .get("/:id",
+    .get("/:id", 
         zValidator("param",
             z.object(
                 {
@@ -201,7 +201,7 @@ const app = new Hono()
                 .with(transactionsToDelete)
                 .delete(transactions)
                 .where(
-                    inArray(transactions.id, sql`select id from ${transactionsToDelete}`)
+                    inArray(transactions.id, sql`(select id from ${transactionsToDelete})`)
                 )
                 .returning(
                     {
@@ -232,6 +232,7 @@ const app = new Hono()
             const auth = getAuth(c);
             const { id } = c.req.valid("param");
             const values = c.req.valid("json");
+            console.log(values);
 
             if (!auth?.userId) {
                 return c.json({ error: "Unauthorized" }, 401);
@@ -257,7 +258,7 @@ const app = new Hono()
                 .update(transactions)
                 .set(values)
                 .where(
-                    inArray(transactions.id, sql`select id from ${transactionsToUpdate}`)
+                    inArray(transactions.id, sql`(select id from ${transactionsToUpdate})`)
                 )
                 .returning();
 
@@ -306,7 +307,7 @@ const app = new Hono()
                 .with(transactionToDelete)
                 .delete(transactions)
                 .where(
-                    inArray(transactions.id, sql`select id from ${transactionToDelete}`)
+                    inArray(transactions.id, sql`(select id from ${transactionToDelete})`)
                 )
                 .returning({
                     id: transactions.id

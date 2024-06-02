@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "next/navigation";
 
 import { client } from "@/lib/hono";
+import { convertAmountFromMiliUnits } from "@/lib/utils";
 
 
 
@@ -31,7 +32,14 @@ export const useGetTransactions = () => {
                     throw new Error("Error fetching transactions");
                 }
                 const { data } = await response.json();
-                return data;
+                return data.map(
+                    (transaction)=>{
+                        return{
+                            ...transaction,
+                            amount:convertAmountFromMiliUnits(transaction.amount)
+                        }
+                    }
+                );
             },
         }
     );

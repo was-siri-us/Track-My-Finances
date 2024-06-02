@@ -32,7 +32,7 @@ const formSchema = z.object(
     {
         date: z.coerce.date(),
         accountId: z.string(),
-        categoryId: z.string().optional(),
+        categoryId: z.string().nullable().optional(),
         payee: z.string(),
         amount: z.string(),
         notes: z.string().nullable().optional()
