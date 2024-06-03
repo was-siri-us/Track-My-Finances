@@ -63,7 +63,7 @@ const app = new Hono()
                     and(
                         accountId ? eq(transactions.accountId, accountId) : undefined,
                         eq(accounts.userId, auth.userId),
-                        gte(transactions.date, startDate),
+                        // gte(transactions.date, startDate),
                         // lte(transactions.date, endDate),
                     )
                 )
