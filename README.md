@@ -49,7 +49,7 @@ Track My Finances is a finance management SaaS platform built with Next.js, desi
 - **Clerk**: An authentication and user management service that ensures secure and seamless user access.
 - **PostgreSQL **: A robust and reliable relational database used for storing data.
 
-##Getting Started
+## Getting Started
 
 ### Prerequisites
 
