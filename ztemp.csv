@@ -1,11 +1,122 @@
-Type,Product,Started Date,Completed Date,Description,Amount,Fee,Currency,State,Balance
-CARD,Current,2024-04-12 23:55:57,2024-04-13 15:57:40,Texts,-4.72,0.30,EUR,COMPLETED,1.30
-BANK,Savings,2024-05-10 08:22:13,2024-05-10 10:45:23,Deposit,500.00,0.00,USD,COMPLETED,501.30
-PAYPAL,Personal,2024-03-15 12:30:45,2024-03-15 13:00:12,Purchase,-20.15,0.50,USD,COMPLETED,481.15
-CARD,Current,2024-01-22 18:15:30,2024-01-22 19:45:55,Coffee,-2.50,0.10,EUR,COMPLETED,478.65
-BANK,Checking,2024-02-28 09:00:00,2024-02-28 09:30:00,Withdrawal,-100.00,1.00,USD,COMPLETED,378.65
-CARD,Current,2024-03-05 14:10:25,2024-03-05 14:55:30,Groceries,-45.60,0.20,EUR,COMPLETED,333.05
-PAYPAL,Personal,2024-04-18 20:00:00,2024-04-18 20:30:00,Refund,15.00,0.00,USD,COMPLETED,348.05
-BANK,Savings,2024-04-01 11:11:11,2024-04-01 12:00:00,Interest,2.50,0.00,USD,COMPLETED,350.55
-CARD,Current,2024-02-12 16:45:45,2024-02-12 17:15:20,Books,-12.99,0.15,EUR,COMPLETED,337.56
-PAYPAL,Personal,2024-03-30 13:55:55,2024-03-30 14:25:35,Transfer,-50.00,0.75,USD,COMPLETED,286.81
+2024-05-29 10:23:54,Entertainment,Movie Tickets,-22.00,Debit Card
+2024-05-25 17:55:12,Refund,Online Retailer,27.89,Checking
+2024-06-02 01:14:23,Salary,Your Employer,2500.00,Checking
+2024-05-22 14:37:41,-Transportation,-Gas Station 123,-38.92,Credit Card
+2024-05-27 08:52:07,Freelance Work,Client A,500.00,Checking
+2024-05-20 20:09:35,Food,-Restaurant XYZ,-15.75,Credit Card
+2024-05-24 11:21:58,Allowance,From Parents,50.00,Checking
+2024-06-03 04:47:14,-Bills,-Electric Bill,-87.43,Checking
+2024-05-31 15:58:41,Side Hustle,Income from Project,120.00,Checking
+2024-05-21 05:34:09,-Bills,-Internet Provider,-59.99,Checking
+2024-05-28 22:05:32,Interest,Savings Account,1.23,Savings
+2024-05-23 08:11:55,-Entertainment,-Sporting Event,-45.00,Cash
+2024-06-01 12:32:06,Gift,Grandma's Gift,100.00,Savings
+2024-05-30 03:00:39,Cash Back Reward,Credit Card Company,10.00,Checking
+2024-05-19 19:27:11,-Shopping,-Groceries,-45.67,Debit Card
+2024-06-04 09:23:54,Entertainment,Concert Tickets,-80.00,Credit Card
+2024-06-03 14:55:12,Shopping,Clothing Store,-50.00,Debit Card
+2024-06-02 20:14:23,Salary,Your Employer,2500.00,Checking
+2024-06-01 11:37:41,Transportation,Public Transit,-5.00,Cash
+2024-05-31 18:52:07,Freelance Work,Client B,300.00,Checking
+2024-05-30 22:09:35,Food,Restaurant ABC,-25.00,Credit Card
+2024-05-29 09:21:58,Allowance,From Parents,50.00,Checking
+2024-05-28 04:47:14,Bills,Water Bill,-40.00,Checking
+2024-05-27 15:58:41,Side Hustle,Income from Project,150.00,Checking
+2024-05-26 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-05-25 22:05:32,Interest,Savings Account,2.50,Savings
+2024-05-24 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-05-23 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-05-22 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-05-21 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-05-20 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-05-19 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-05-18 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-05-17 22:05:32,Interest,Savings Account,2.50,Savings
+2024-05-16 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-05-15 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-05-14 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-05-13 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-05-12 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-05-11 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-05-10 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-05-09 22:05:32,Interest,Savings Account,2.50,Savings
+2024-05-08 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-05-07 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-05-06 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-05-05 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-05-04 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-05-03 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-05-02 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-05-01 22:05:32,Interest,Savings Account,2.50,Savings
+2024-04-30 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-04-29 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-04-28 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-04-27 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-04-26 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-04-25 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-04-24 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-04-23 22:05:32,Interest,Savings Account,2.50,Savings
+2024-04-22 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-04-21 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-04-20 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-04-19 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-04-18 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-04-17 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-04-16 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-04-15 22:05:32,Interest,Savings Account,2.50,Savings
+2024-06-05 11:21:58,Allowance,From Parents,50.00,Checking
+2024-06-06 04:47:14,-Bills,-Electric Bill,-87.43,Checking
+2024-06-07 15:58:41,Side Hustle,Income from Project,120.00,Checking
+2024-06-08 05:34:09,-Bills,-Internet Provider,-59.99,Checking
+2024-06-09 22:05:32,Interest,Savings Account,1.23,Savings
+2024-06-10 08:11:55,-Entertainment,-Sporting Event,-45.00,Cash
+2024-06-11 12:32:06,Gift,Grandma's Gift,100.00,Savings
+2024-06-12 03:00:39,Cash Back Reward,Credit Card Company,10.00,Checking
+2024-06-13 19:27:11,-Shopping,-Groceries,-45.67,Debit Card
+2024-06-14 09:23:54,Entertainment,Concert Tickets,-80.00,Credit Card
+2024-06-15 14:55:12,Shopping,Clothing Store,-50.00,Debit Card
+2024-06-16 20:14:23,Salary,Your Employer,2500.00,Checking
+2024-06-17 11:37:41,Transportation,Public Transit,-5.00,Cash
+2024-06-18 18:52:07,Freelance Work,Client B,300.00,Checking
+2024-06-19 22:09:35,Food,Restaurant ABC,-25.00,Credit Card
+2024-06-20 09:21:58,Allowance,From Parents,50.00,Checking
+2024-06-21 04:47:14,Bills,Water Bill,-40.00,Checking
+2024-06-22 15:58:41,Side Hustle,Income from Project,150.00,Checking
+2024-06-23 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-06-24 22:05:32,Interest,Savings Account,2.50,Savings
+2024-06-25 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-06-26 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-06-27 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-06-28 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-06-29 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-06-30 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-07-01 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-07-02 22:05:32,Interest,Savings Account,2.50,Savings
+2024-07-03 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-07-04 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-07-05 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-07-06 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-07-07 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-07-08 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-07-09 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-07-10 22:05:32,Interest,Savings Account,2.50,Savings
+2024-07-11 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-07-12 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-07-13 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-07-14 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-07-15 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-07-16 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-07-17 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-07-18 22:05:32,Interest,Savings Account,2.50,Savings
+2024-07-19 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-07-20 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-07-21 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-07-22 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
+2024-07-23 09:47:14,Bills,Internet Bill,-60.00,Checking
+2024-07-24 15:58:41,Side Hustle,Income from Project,100.00,Checking
+2024-07-25 08:34:09,Bills,Phone Bill,-70.00,Checking
+2024-07-26 22:05:32,Interest,Savings Account,2.50,Savings
+2024-07-27 11:11:55,Entertainment,Concert Tickets,-100.00,Credit Card
+2024-07-28 12:32:06,Gift,Birthday Present,-50.00,Debit Card
+2024-07-29 03:00:39,Cash Back Reward,Credit Card Company,5.00,Checking
+2024-07-30 19:27:11,Shopping,Electronics Store,-200.00,Credit Card
