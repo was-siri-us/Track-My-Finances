@@ -89,7 +89,12 @@ export function formatDateRange(period?: Period) {
   }
 
 
-  return format(period.from, "LLL dd, y")
+
+  return `${format(period.from, "LLL dd")} - ${format(period.to, "LLL dd, y")}`;
+  // return format(period.from, "LLL dd, y")
+  
+
+  
 
 }
 
